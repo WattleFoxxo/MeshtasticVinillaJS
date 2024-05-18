@@ -1,0 +1,14 @@
+{
+	"name": "meshtastic-js",
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@meshtastic/js": "^2.3.3-0"
+	},
+	"devDependencies": {
+		"vite": "^4.4.8"
+	}
+}
