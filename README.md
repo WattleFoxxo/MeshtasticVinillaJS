@@ -10,11 +10,11 @@ then run `npm run build`
 <!doctype html>
 <html>
     <head>
-        <script src="meshtastic.umd.cjs"></script>
+        <script src="meshtastic.js"></script>
     </head>
     <body>
         <script>
-            const meshtastic = globalThis.Meshtastic.meshtastic;
+            const meshtastic = globalThis.Meshtastic;
             
             const client = new meshtastic.Client();
             const connection = client.createHttpConnection(0);
